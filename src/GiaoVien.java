@@ -12,6 +12,12 @@ public class GiaoVien extends CaNhan{
     private String monDay;
     private String toBoMon;
 
+    public GiaoVien(String monDay, String toBoMon, String hoTen, int tuoi, String diaChi, String sdt) {
+        super(hoTen, tuoi, diaChi, sdt);
+        this.monDay = monDay;
+        this.toBoMon = toBoMon;
+    }
+    
     @Override
     public String HienThiTT() {
         return super.HienThiTT() + 

@@ -12,6 +12,13 @@ public class HocSinh extends CaNhan{
     
     private String lop;
     private String nangKhieu;
+
+    public HocSinh(String lop, String nangKhieu, String hoTen, int tuoi, String diaChi, String sdt) {
+        super(hoTen, tuoi, diaChi, sdt);
+        this.lop = lop;
+        this.nangKhieu = nangKhieu;
+    }
+    
     
     @Override
     public String HienThiTT(){
