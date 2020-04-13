@@ -8,7 +8,7 @@
  *
  * @author DELL
  */
-public class CaNhan {
+public abstract class CaNhan {
     private String hoTen;
     private int tuoi;
     private String diaChi;
@@ -21,5 +21,10 @@ public class CaNhan {
         this.sdt = sdt;
     }
     
-    
+    public String HienThiTT(){
+        return "Ho ten: " + hoTen + 
+               "\nTuoi: " + tuoi + 
+               "\nDia chi: " + diaChi + 
+               "\nsdt: " + sdt;
+    }
 }
