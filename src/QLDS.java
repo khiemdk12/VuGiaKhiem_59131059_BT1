@@ -22,7 +22,6 @@ public class QLDS implements IQLDS{
         arr = new ArrayList<>();
     }
     
-    
     @Override
     public void them(CaNhan p) {
         arr.add(p);
