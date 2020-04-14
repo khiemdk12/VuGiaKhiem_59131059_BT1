@@ -36,7 +36,7 @@ public class QLDS implements IQLDS{
     @Override
     public void inDS() {
         for (int i = 0; i < arr.size(); i++){
-            System.out.println("Ca Nhan " + (i+1) + " : " + "\n" + arr.get(i).HienThiTT());
+            System.out.println("Ca Nhan " + (i + 1) + " : " + "\n" + arr.get(i).HienThiTT());
         }
     }
 }
