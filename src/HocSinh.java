@@ -23,7 +23,7 @@ public class HocSinh extends CaNhan{
     @Override
     public String HienThiTT(){
         return super.HienThiTT() + 
-               "Lop: " + lop +
+               "\nLop: " + lop +
                "\nNang Khieu: " + nangKhieu;
     }
     

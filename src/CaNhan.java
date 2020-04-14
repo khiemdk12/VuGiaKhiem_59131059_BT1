@@ -14,6 +14,23 @@ public abstract class CaNhan {
     private String diaChi;
     private String sdt;
 
+    public String getHoTen() {
+        return hoTen;
+    }
+
+    public int getTuoi() {
+        return tuoi;
+    }
+
+    public String getDiaChi() {
+        return diaChi;
+    }
+
+    public String getSdt() {
+        return sdt;
+    }
+    
+    
     public CaNhan(String hoTen, int tuoi, String diaChi, String sdt) {
         this.hoTen = hoTen;
         this.tuoi = tuoi;

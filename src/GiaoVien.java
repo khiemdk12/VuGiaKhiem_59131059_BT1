@@ -21,7 +21,7 @@ public class GiaoVien extends CaNhan{
     @Override
     public String HienThiTT() {
         return super.HienThiTT() + 
-               "Mon day: " + monDay + 
+               "\nMon day: " + monDay + 
                "\nTo Bo Mon: " + toBoMon; 
     }
     
