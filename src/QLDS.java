@@ -16,26 +16,26 @@ import java.util.List;
  */
 public class QLDS implements IQLDS{
     
-    List<CaNhan> arr;
+    List<CaNhan> dsCaNhan;
 
     public QLDS() {
-        arr = new ArrayList<>();
+        dsCaNhan = new ArrayList<>();
     }
     
     @Override
     public void them(CaNhan p) {
-        arr.add(p);
+        dsCaNhan.add(p);
     }
 
     @Override
     public void xoa(String ten) {
-        arr.removeIf( i -> i.getHoTen().equals(ten)  );
+        dsCaNhan.removeIf( i -> i.getHoTen().equals(ten)  );
     }
     
     @Override
     public void inDS() {
-        for (int i = 0; i < arr.size(); i++){
-            System.out.println("Ca Nhan " + (i + 1) + " : " + "\n" + arr.get(i).HienThiTT());
+        for (int i = 0; i < dsCaNhan.size(); i++){
+            System.out.println("Ca Nhan " + (i + 1) + " : " + "\n" + dsCaNhan.get(i).HienThiTT());
         }
     }
 }

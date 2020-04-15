@@ -24,5 +24,20 @@ public class GiaoVien extends CaNhan{
                "\nMon day: " + monDay + 
                "\nTo Bo Mon: " + toBoMon; 
     }
-    
+
+    public String getMonDay() {
+        return monDay;
+    }
+
+    public void setMonDay(String monDay) {
+        this.monDay = monDay;
+    }
+
+    public String getToBoMon() {
+        return toBoMon;
+    }
+
+    public void setToBoMon(String toBoMon) {
+        this.toBoMon = toBoMon;
+    }
 }

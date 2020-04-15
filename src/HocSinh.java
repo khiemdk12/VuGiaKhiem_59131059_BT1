@@ -26,5 +26,20 @@ public class HocSinh extends CaNhan{
                "\nLop: " + lop +
                "\nNang Khieu: " + nangKhieu;
     }
-    
+
+    public String getLop() {
+        return lop;
+    }
+
+    public void setLop(String lop) {
+        this.lop = lop;
+    }
+
+    public String getNangKhieu() {
+        return nangKhieu;
+    }
+
+    public void setNangKhieu(String nangKhieu) {
+        this.nangKhieu = nangKhieu;
+    }
 }

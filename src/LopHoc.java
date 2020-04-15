@@ -9,9 +9,9 @@
  * @author DELL
  */
 public class LopHoc {
-    private QLDS dshs;
-    private QLDS dsgvgd;
-    private GiaoVien gvcn;
+    private QLDS dshs; //danh sách học sinh
+    private QLDS dsgvgd; //danh sách giáo viên giảng dạy
+    private GiaoVien gvcn; // giáo viên chủ nhiệm
 
     public LopHoc(GiaoVien gvcn) {
         this.gvcn = gvcn;
